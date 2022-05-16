@@ -37,7 +37,7 @@ namespace CallJourney.Test
                 // Promotion for MacBook Pro
                 if (dic.ContainsKey(TypeEnum.mbp) && dic.ContainsKey(TypeEnum.vga))
                 {
-                    dic[TypeEnum.vga] = (dic[TypeEnum.mbp] >= dic[TypeEnum.vga]) ? 0 : dic[TypeEnum.vga] - dic[TypeEnum.vga];
+                    dic[TypeEnum.vga] = (dic[TypeEnum.mbp] >= dic[TypeEnum.vga]) ? 0 : dic[TypeEnum.vga] - dic[TypeEnum.mbp];
                     if (dic[TypeEnum.vga] == 0)
                         dic.Remove(TypeEnum.vga);
                 }
