@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CallJourney.Test
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -14,7 +14,7 @@ namespace CallJourney.Test
             Console.WriteLine($"Total cost: {totalCost}");
         }
 
-        static double TotalCost(string args)
+        public static double TotalCost(string args)
         {
             double totalCost = 0;
             Dictionary<TypeEnum,int> dic = new Dictionary<TypeEnum,int>(); 
