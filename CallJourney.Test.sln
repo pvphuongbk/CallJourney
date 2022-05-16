@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32014.148
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallJourney.Test", "CallJourney.Test\CallJourney.Test.csproj", "{33DAC9BE-FB2C-4AB3-A315-EC75FDF96462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallJourney.Test", "CallJourney.Test\CallJourney.Test.csproj", "{33DAC9BE-FB2C-4AB3-A315-EC75FDF96462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallJourney.UnitTest", "CallJourney.UnitTest\CallJourney.UnitTest.csproj", "{76170547-A840-4FE0-AF90-A7F79EBE9C05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{33DAC9BE-FB2C-4AB3-A315-EC75FDF96462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33DAC9BE-FB2C-4AB3-A315-EC75FDF96462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33DAC9BE-FB2C-4AB3-A315-EC75FDF96462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76170547-A840-4FE0-AF90-A7F79EBE9C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76170547-A840-4FE0-AF90-A7F79EBE9C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76170547-A840-4FE0-AF90-A7F79EBE9C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76170547-A840-4FE0-AF90-A7F79EBE9C05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
